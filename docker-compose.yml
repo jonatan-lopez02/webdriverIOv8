@@ -1,0 +1,6 @@
+version: '4'
+
+services:
+    tests:
+        image: 18-slim
+        command: "npm run wdio"
